@@ -125,8 +125,6 @@ $(function() {
 			enabled: true
 		}
 	]);
-	var showingLabels;
-	
 
 	var MapView = Backbone.View.extend({
 
