@@ -1,0 +1,18 @@
+.right { float: right; }
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	font-size: 19px;
+	height: 45px;
+	padding: 3px 6px;
+	background: rgba(0,0,0,.7);
+	color: white;
+}
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map { height: 100% }
