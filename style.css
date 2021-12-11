@@ -1,16 +1,16 @@
-.right { float: right; }
-
-header {
+.teslaui-selectmap {
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 2;
-	font-size: 19px;
-	height: 45px;
-	padding: 3px 6px;
-	background: rgba(0,0,0,.7);
-	color: white;
+	bottom: 3%;
+	left: 2%;
+	background-color: white;
+	padding: 1%;
+	border-radius: 12px;
+	font-size: 20px; 
+}
+
+.teslaui-buttonselect {
+	padding: 15px;
+	color: rgb(209, 209, 209);
 }
 
 html { height: 100% }
