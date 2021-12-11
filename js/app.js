@@ -18,7 +18,7 @@ $(function() {
 	var currentMarker;
 	
 	var assetsUrl = function() {
-		return 'https://github.com/visibait/TeslaUI-Map/blob/main/';
+		return 'https://skyrossm.github.io/np-gangmap/';
 	};
 
 	Handlebars.registerHelper('assetsUrl', assetsUrl);
