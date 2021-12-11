@@ -18,7 +18,7 @@ $(function() {
 	var currentMarker;
 	
 	var assetsUrl = function() {
-		return 'https://github.com/visibait/TeslaUI-Map/blob/main/tiles/';
+		return 'https://github.com/visibait/TeslaUI-Map/blob/main/';
 	};
 
 	Handlebars.registerHelper('assetsUrl', assetsUrl);
