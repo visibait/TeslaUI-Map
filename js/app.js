@@ -18,7 +18,7 @@ $(function() {
 	var currentMarker;
 	
 	var assetsUrl = function() {
-		return '/';
+		return 'https://github.com/visibait/TeslaUI-Map';
 	};
 
 	Handlebars.registerHelper('assetsUrl', assetsUrl);
