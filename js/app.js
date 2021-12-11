@@ -138,7 +138,8 @@ $(function() {
 				zoom: 5,
 				disableDefaultUI: true,
 				mapTypeId: this.mapType,
-				backgroundColor:  'hsla(0, 0%, 0%, 0)'
+				backgroundColor:  'hsla(0, 0%, 0%, 0)',
+				gestureHandling: 'greedy'
 			};
 
 			_.bindAll(this, 'getTileImage', 'updateMapBackground');
